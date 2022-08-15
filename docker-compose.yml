@@ -1,0 +1,11 @@
+services:
+  envoy:
+    image: chat-grpc-envoy-go-envoy:1.0
+    ports:
+      - "8080:8080"
+    depends_on:
+      - api
+  api:
+    image: chat-grpc-envoy-go-api:1.0
+    ports:
+      - "50051:50051"
