@@ -7,7 +7,7 @@ import (
 	"log"
 	"net"
 
-	apipb "github.com/jponc/chat-grpc-envoy-go/compiled-protos/apipb"
+	apipb "github.com/jponc/chat-grpc-envoy-go/compiledprotos/go/apipb"
 	"google.golang.org/grpc"
 )
 

@@ -1,5 +1,5 @@
 syntax = "proto3";
-option go_package="./compiled-protos/apipb";
+option go_package="./compiledprotos/go/apipb";
 
 package apipb;
 
